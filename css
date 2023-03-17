@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family={{fontFamily}}');
+
+* {
+  position: relative;
+  top: +0px;
+  _display: none; 
+  font-family: '{{fontFamily}}', sans-serif;
+  font-size: {{fontSize}}px;
+  text-align: left;
+}
+
+.mySlides {
+  display: none;
+}
+
+#username {
+  color: {{fontColor}};
+  font-weight: {{fontWeight}};
+}
+
+img {
+  height: {{fontSize}}px;
+}
